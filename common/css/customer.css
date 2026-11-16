@@ -1,0 +1,318 @@
+
+/* contact */
+.contactUs {
+	overflow: hidden;
+}
+.contactUs:after {
+	display: block;
+	content: "";
+	clear: both;
+}
+.contactUs .tblData {
+	float: left;
+	width: 50%;
+}
+.contactUs .tblData.tblLast thead th:first-child, .contactUs .tblData.tblLast tbody tr td:first-child {
+	border-left: 1px solid #d8d8db;
+}
+.contactUs .tblData td.phoneNum {
+	overflow: hidden;
+}
+.contactUs .tblData td.phoneNum > div {
+	/* width: 160px; */
+	margin: 0 auto;
+}
+.contactUs .tblData .mailTo {
+	float: right;
+	overflow: hidden;
+	display: inline-block;
+	margin-top: 15px;
+	width: 15px;
+	height: 12px;
+	text-indent: -9999px;
+	background: url(../images/contents/btn_email.png) 0 0 no-repeat;
+}
+.contactUs .contactList li{
+	/* display: inline-block; */
+	border-bottom: 1px solid #e2e2e2;
+	padding: 25px 0 30px;
+	position: relative;
+	box-sizing: border-box;
+	/* float: left; */
+}
+.contactUs .contactList li a.mail{
+	width: 40px;
+	height: 40px;
+	background: url("../images/contents/icon_mail.png") no-repeat center center;
+	display: inline-block;
+	background-size: 20px auto;
+	position: absolute;
+	right: 0;
+	bottom: 21px;
+	background-color: transparent;
+	transition: .3s;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.contactUs .contactList li p:first-child{font-size: 24rem; font-weight: 400; line-height: 30px;height: 30px;padding: 0 0 15px;display: block;width: 100%;}
+.contactUs .contactList li p:first-child span{font-size: 18rem;margin-left: 5px;}
+.contactUs .contactList li p{font-size: 16rem;display: block;clear: both;width: 100%;}
+
+.contactUs .contactList li a.mail:hover{
+	background-color: #222;
+	background-image: url("../images/contents/icon_mail_w.png")
+} 
+
+/* popup */
+.popWrap.contactUsPop .conWrap input, 
+.popWrap.contactUsPop .conWrap select, 
+.popWrap.contactUsPop .conWrap textarea{
+	width: 100%;
+	display: block;
+	border: 1px solid #d5d5d5;
+	margin-top: 10px;
+	padding: 17px;
+	box-sizing: border-box;
+	border-radius: 0;
+	font-size: 16rem;
+}
+.popWrap.contactUsPop .conWrap input, 
+.popWrap.contactUsPop .conWrap select{height: 45px;padding: 0 17px;line-height: 45px;box-shadow: 0 0 0;}
+.popWrap.contactUsPop .conWrap p{text-align: right; padding: 15px 0;}
+.popWrap input:placeholder,.popWrap textarea:placeholder{color: #b2b2b2;}
+.popWrap.contactUsPop .conWrap textarea{resize: none;}
+.popWrap.contactUsPop .conWrap{margin-bottom: 0;}
+.contactCate1 {width: 47%}
+
+/* FAQ */
+
+.bgInfo.bgFaq .subHeader1 {
+	margin-bottom: 35px;
+/* 	background: url(../images/contents/bg_faq_img.png) right bottom no-repeat; */
+}
+ul.faqList > li {
+	position: relative;
+	border-bottom: 1px solid #e2e2e2;
+	line-height: 24px;
+	font-size: 16rem;
+}
+ul.faqList > li.question:first-child {
+	border-top: 1px solid #000;
+}
+ul.faqList > li.question > a {
+	display: block;
+	padding-right: 40px;
+	/* margin-right: 35px; */
+	/* background: url(../images/contents/ico_list_off.png) right center no-repeat; */
+	position: relative;
+	font-size: 18rem;
+	line-height: 24px;
+	word-break: keep-all;
+	padding: 20px 50px 20px 50px;
+}
+ul.faqList > li.question > a.on {
+	background-image: url(../images/contents/ico_list_on.png);
+}
+ul.faqList > li.question a:after{
+	content: " ";
+	border: 1px solid #222;
+	border-top: 0;
+	border-right: 0;
+	width: 10px;
+	height: 10px;
+	right: 20px;
+	top: 50%;
+	position: absolute;
+	transform: rotate(-45deg);
+	transition: .3s;
+	margin-top: -10px;
+}
+ul.faqList > li.question.current a:after{transform: rotate(135deg);border-color: #fff;margin-top: -3px;}
+ul.faqList > li.question a:before{content: " ";background-color: #222222;position: absolute;right: 13px;top: -6px;border-radius: 50%;width: 26px;height: 26px;opacity: 0;transition: .3s;top: 50%;margin-top: -13px;}
+ul.faqList > li.question.current a:before{opacity: 1;}
+ul.faqList > li > em {
+	position: absolute;
+	left: 15px;
+	top: 19px;
+	width: 21px;
+	height: 30px;
+	/* background: url(../images/contents/ico_question.png) 0 0 no-repeat; */
+	/* text-indent: -9999px; */
+	overflow: hidden;
+	font-size: 0;
+}
+ul.faqList > li.question > em:before{
+	content: "Q";
+	position: absolute;
+	left: 3px;
+	top: -2px;
+	color:  #222;
+	font-size: 20rem;
+}
+ul.faqList > li.answer {
+	display: none;
+	padding: 30px 20px 30px 40px;
+	background-color: #f3f3f3;
+	margin-top: -1px;
+	color: #000;
+	font-size: 15rem;
+	line-height: 22rem;
+	word-break: break-all;
+}
+ul.faqList > li.answer > em {
+	/* background-image: url(../images/contents/ico_answer.png); */
+}
+ul.faqList > li.answer a{
+	text-decoration: underline;
+	color:#1d49ae;
+}
+ul.faqList > li.answer p.mb {display: none;}
+ul.faqList > li.answer p.pc >a {text-decoration: underline; color:#1d49ae;}
+/* notice */
+.postCon p:first-child {margin-bottom: 30px;}
+.postCon p.url {margin: 30px 0;}
+.postCon p.file em {
+	display: inline-block;
+	font-weight: 700;
+	padding-right: 20px;
+	margin-right: 20px;
+	background: url(../images/contents/bul_post_bar.png) right 50% no-repeat ;
+}
+.postCon p.file a {
+	display: inline-block;
+	padding-right: 23px;
+	background: url(../images/contents/bul_down_img.png) right 50% no-repeat ;
+}
+/* medium */
+@media all and (min-width:601px) and (max-width:850px) {
+/* 	.bgInfo.bgFaq .subHeader1 {background: url(../images/contents/bg_mfaq_img.png) no-repeat right bottom;}
+	.bgInfo.bgFaq .subTxt02 {width: 36%;} */
+	.contactUs .tblData td.phoneNum > div {
+		width: 115px;
+	}
+	/* FAQ */
+	/* ul.faqList > li {
+		padding: 15px 0 15px 45px;
+	} */
+	ul.faqList > li.question > em:before{/* top: -6px; */}
+	ul.faqList > li.question > a {
+		margin-right: 10px;
+    	padding: 15px 50px 15px 45px;
+	}
+	ul.faqList > li > em {
+		left: 10px;
+		top: 16px;
+	}
+	ul.faqList > li.answer
+	p.pc {display: none;}
+	ul.faqList > li.answer
+	p.mb {display: block;}
+	/* contactUs */
+	.contactUs .tblData {
+		float: none;
+		width: 100%;
+	}
+	.contactUs .tblData.tblLast thead th:first-child, .contactUs .tblData.tblLast tbody tr td:first-child {
+		border-left: 0;
+	}
+	.tblData.tblLast thead {
+		display: none;
+	}
+	.tblData.tblLast tr:first-child td {
+		border-top: 0;
+	}
+	.contactUs .tblData td.phoneNum > div {
+		width: 125px;
+		margin: 0 auto;
+	}
+	.contactTitle {width: 100%;  border: 1px solid #adb6c6;padding: 10px;text-align: center;font-size: 24rem;background-color:#2e62bf;color: #fff;}
+	.contactUs .contactList {width: 100%;}
+	.contactCate1 {width: 100%}
+	/* .contactUs .contactList li{width: 47.7%;margin-left: 4%;}
+	.contactUs .contactList li:nth-child(2n+1) {margin-left: 0;}
+	.contactUs .contactList li:nth-child(-n + 2){border-top: 1px solid #222;} 
+	.contactUs .contactList li p:first-child{padding-bottom: 5px; font-size: 20rem;}
+	.contactUs .contactList li{padding: 15px 0 20px;}*/
+}
+/* narrow */
+@media all and (max-width:600px) {
+/* 	.bgInfo.bgFaq .subTxt02 {width: 55%;} */
+/* 	.contentsArea {
+		padding: 0 20px;
+	} */
+	/* contactUs */
+	.contactUs .tblData {
+		float: none;
+		width: 100%;
+	}
+	.contactUs .tblData.tblLast thead th:first-child, .contactUs .tblData.tblLast tbody tr td:first-child {
+		border-left: 0;
+	}
+	.tblData.tblLast thead {
+		display: none;
+	}
+	.tblData.tblLast tr:first-child td {
+		border-top: 0;
+	}
+	.contactUs .tblData td {font-size: 14rem}
+	.contactUs .tblData td.phoneNum > div {
+		width: 125px;
+		margin: 0 auto;
+	}
+	
+	.contactTitle {width: 100%;  border: 1px solid #adb6c6;padding: 10px;text-align: center;font-size: 24rem;background-color:#2e62bf;color: #fff;}
+	.contactUs .contactList {width: 100%;}
+	.contactUs .contactList li{width: 100%;padding: 10px 40px 15px 0;clear: both;}
+	/* .contactUs .contactList li:first-child{border-top: 1px solid #222;}
+	.contactUs .contactList li p:first-child{padding: 0;clear: both;font-size: 21rem;padding-bottom: 5px;} */
+	
+	.contactCate1 {width: 100%}
+	/* FAQ */
+	.bgInfo.bgFaq .subHeader1 {
+		margin-bottom: 30px;
+		/* background: url(../images/contents/bg_nfaq_img.png) no-repeat right bottom; */
+	}
+	ul.faqList > li {
+		/* padding: 15px 0 15px 30px; */
+		font-size: 14rem;
+		line-height: 15px;
+	}
+	ul.faqList > li.question > em:before{font-size: 16rem;top: -2px;}
+	ul.faqList > li.answer {
+		padding: 15px 15px 15px 25px;
+	}
+	ul.faqList > li.question > a {
+		margin-right: 0;
+		padding: 15px 35px 15px 25px;
+		font-size: 16rem;
+		line-height: 22px;
+	}
+	ul.faqList > li > em {
+		left: 3px;
+		top: 13px;
+	}
+	ul.faqList > li.question a:after{right: 10px; top: 20px; margin-top: 0;}
+	ul.faqList > li.question.current a:after{margin-top: 3px;}
+	ul.faqList > li.question a:before{right: 3px; top: 14px; margin-top: 0;}
+	ul.faqList > li.answer
+	p.pc {display: none;}
+	ul.faqList > li.answer
+	p.mb {display: block;}
+	
+	/* popup */
+	.popWrap.contactUsPop .conWrap input, 
+	.popWrap.contactUsPop .conWrap textarea{font-size: 14rem;}
+	.popWrap.contactUsPop .conWrap p{font-size: 14rem;text-align: right;word-break: keep-all;line-height: 18px;}
+}
+/* wide */
+@media all and (min-width:851px) {
+	
+	.contactUs .contactList{flex: 1;} */
+	.contactCate1 {flex: 1;}
+	.contactDiv {display:flex; flex-wrap: wrap; gap: 30px; flex: 1 1 auto;}
+	/*.contactUs .contactList li{width: 50%;margin-left: 5%;}
+	 .contactUs .contactList li:nth-child(3n+1){margin-left: 0;}
+	.contactUs .contactList li:nth-child(-n + 3){border-top: 1px solid #222;} */
+	.contactTitle {width: 100%;/* border: 1px solid #adb6c6; */padding: 0 0 20px;text-align: left;font-size: 20rem;color: var(--black); border-bottom: 1px solid var(--black); box-sizing: border-box;}
+	.allCate {display:flex; flex-wrap: wrap; gap: 50px;}
+}

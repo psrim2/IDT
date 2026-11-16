@@ -1,0 +1,657 @@
+/* welfare */
+.welfareList {
+	overflow: hidden;
+}
+.welfareList:after {
+	display: block;
+	content: "";
+	clear: both;
+}
+.welfareList > ul {
+	/* float: left; */
+	/* width: 49.4%; */
+}
+.welfareLeft{margin-right: 1%;}
+.welfareRight{margin: 0;}
+.welfareList ul > li {
+	width: 48%;
+	/* margin-bottom: 10px; */
+	font-size: 16rem; /* 14px / 16px */
+	line-height: 22px;
+	border-top: 1px solid #e2e2e2;
+	margin-left: 4%;
+	float: left;
+	box-sizing: border-box;
+	background-image: none !important;
+	padding: 35px 10px;
+}
+.welfareList ul > li:nth-child(2n + 1){margin-left: 0; clear: both;}
+.welfareList ul > li:nth-child(-n + 2){border-top: 0;padding-top: 20px;}
+.welfareList ul > li > div {
+	line-height: 22px;
+	font-size: 16rem;
+	display: table-cell;
+	vertical-align: middle;
+}
+.welfareList ul > li strong {
+	display: block;
+	padding: 0 10px 15px 0;
+	font-size: 20rem;
+	font-weight: 400;
+	line-height: 24px;
+	font-size: 24rem;
+}
+.welfareList ul > li.welfare01 {
+	background: url(../images/contents/bg_welfare01.png) left center no-repeat;
+}
+.welfareList ul > li.welfare02 {
+	background: url(../images/contents/bg_welfare02.png) left center no-repeat;
+}
+.welfareList ul > li.welfare03 {
+	background: url(../images/contents/bg_welfare03.png) left center no-repeat;
+}
+.welfareList ul > li.welfare04 {
+	background: url(../images/contents/bg_welfare04.png) left center no-repeat;
+}
+.welfareList ul > li.welfare05 {
+	background: url(../images/contents/bg_welfare05.png) left center no-repeat;
+}
+.welfareList ul > li.welfare06 {
+	background: url(../images/contents/bg_welfare06.png) left center no-repeat;
+}
+.welfareList ul > li.welfare07 {
+	background: url(../images/contents/bg_welfare07.png) left center no-repeat;
+}
+.welfareList ul > li.welfare08 {
+	background: url(../images/contents/bg_welfare08.png) left center no-repeat;
+}
+.welfareList ul > li.welfare09 {
+	background: url(../images/contents/bg_welfare09.png) left center no-repeat;
+}
+.welfareList ul > li.welfare10 {
+	background: url(../images/contents/bg_welfare10.png) left center no-repeat;
+}
+.welfareList ul > li.welfare11 {
+	background: url(../images/contents/bg_welfare11.png) left center no-repeat;
+}
+.welfareList ul > li.welfare12 {
+	background: url(../images/contents/bg_welfare12.png) left center no-repeat;
+}
+/* .subHeader1.recruit {
+	background: url('../images/contents/bg_headerRecruit.png') right bottom no-repeat;
+} */
+
+.recruit .subTxt02 br {display: block;}
+.recruitComment {
+	position: relative;
+	margin-bottom: 30px;
+	font-size: 14rem; /* 14px / 16px */
+	line-height: 18px;
+}
+	.recruitLink {
+	position: absolute;
+	left:0;
+	}
+.recruitComment li {
+	overflow: hidden;
+	padding-bottom: 10px;
+	padding-left: 17px;
+	background: url('../images/contents/bg_bullet.png') no-repeat;
+	background-position: 5px 6px;
+}
+.recruitComment strong {
+	display: block;
+	float: left;
+	font-weight: 700;
+}
+.recruitComment div {
+	float: left;
+	margin-left: 15px;
+}
+.recruitMsg {
+	margin-bottom: 85px;
+	padding: 12px 2%;
+	font-size: 14rem;
+	border-top: 1px solid #333;
+	border-bottom: 1px solid #d8d8db;
+	background: #fbfbfb;
+	position: relative;
+}
+.recruitMsg strong {font-weight: 700;}
+.recruit .contentsArea, .jobs {
+	overflow: hidden;
+	clear: both;
+}
+
+.recruit .serTxt {
+	margin-bottom: 40px;
+	font-size: 14rem; 
+	line-height: 20px;
+} 
+.recruit .serTxt.headerTxt {
+	padding-right: 20px;
+	padding-left: 20px;
+	font-size: 16rem;
+	font-weight: 700;
+}
+.recruit .serTxt > li {
+	padding-left: 0;
+	margin-bottom: 5px;
+	background: none;
+}
+.recruit .serTxt em {
+	display: inline-block;
+	margin-bottom: 9px;
+	font-weight: 700;
+	color: #222;
+	width: 100%;
+	height: auto;
+	padding: 10px 0 20px;
+	margin-bottom: 15px;
+}
+.recruit .serTxt p {margin-left: 0;}
+
+
+.div {
+	
+    padding-top: 5px;
+	}
+a.recruitBtn {
+	padding-right: 23px;
+	padding-bottom: 20px;
+	background: url(../images/contents/btn_direct.png) no-repeat right 0;
+	font-size: 14rem;
+	font-weight: 700;
+	color: #d73338;
+	}
+.btnRecruit {
+	display: inline-block;
+	padding: 8px 10px 8px;
+	margin-bottom: 40px;
+	font-size: 14rem; /* 13px / 16px */
+	font-weight: 700;
+	color: #fff;
+	border: 1px solid #a6141a;
+	background: #d4131b;
+}
+.btnRecruit span {
+	display: inline-block;
+	padding-left: 20px;
+	background: url('../images/contents/ico_goRecruit.png') 0 50% no-repeat;
+}
+.adoptSequence .tabContents ul {
+	position: relative;
+	overflow: hidden;
+}
+.adoptSequence > ul > li {min-width:33.3%;}
+/* .adoptSequence > ul > li:FIRST-CHILD a {border-left:1px solid #989898;} */
+.adoptSequence > ul > li a {border-left: 0;}
+.adoptSequence .tabContents ul li.step {
+	float: left;
+	width: 16.7%; /* 145px / 1024px */
+	padding-right: 4%; /* 72px / 1024px */
+	background: url('../images/contents/bg_stepArrow.png') 99% center no-repeat;
+}
+.adoptSequence .tabContents ul li.lastStep {
+	padding-right: 0;
+	background: none;
+}
+.adoptSequence .tabContents ul li p {
+	width: 100%;
+	padding: 125px 0 15px 0;
+	font-weight: 700;
+	font-size: 16rem; /* 15px/ 16px */
+	text-align: center;
+	background-color: #b3b3b3;
+	border: 1px solid #d2d2d2;
+}
+.adoptSequence .tabContents ul li p.newStep01 {background: url('../images/contents/ico_recruit01.png') center 0 no-repeat;}
+.adoptSequence .tabContents ul li p.newStep02 {background: url('../images/contents/ico_recruit02.png') center 0 no-repeat;}
+.adoptSequence .tabContents ul li p.newStep03 {background: url('../images/contents/ico_recruit03.png') center 0 no-repeat;}
+.adoptSequence .tabContents ul li p.newStep04 {background: url('../images/contents/ico_recruit04.png') center 0 no-repeat;}
+.adoptSequence .tabContents ul li p.newStep05 {background: url('../images/contents/ico_recruit05.png') center 0 no-repeat;}
+.adoptSequence .tabContents ul li p.newStep06 {background: url('../images/contents/ico_recruit06.png') center 0 no-repeat;}
+
+
+.recruit .contentsArea, .training {
+	overflow: hidden;
+	clear: both;
+}
+.training {margin-top: 40px;}
+.training .trainingEdu1, .training .trainingEdu2 {
+	float: left;
+	width: 49%; /* 481px / 1024px */
+}
+.training .trainingEdu1 {margin-right: 1.9%; /* 20px / 1024px */}
+.training .tblData {min-height: 388px;}
+.training .tblData tbody td {
+	padding: 20px 0;
+	line-height: 14px;
+}
+.training .tblData thead th {
+	height: 38px;
+	vertical-align: middle;
+	background-color: #fff;
+}
+.training .tblData .subTit {border-top: 1px solid #d8d8db;}
+.training .tblData tbody td ul {
+	margin-left: 37px;
+	text-align: left;
+	list-style-type: disc;
+}
+.training .tblData tbody td ul li {padding-bottom: 10px;}
+.training .tblData.eduTask tbody td {vertical-align: middle;}
+.training .tblData.eduTask .titBdr {border-top: 1px solid #ee1d25;}
+.training .tblData.eduTask .titG {background-color: #fbfbfb;}
+.training .tblData.eduTask .subTit {
+	border-left: 1px solid #d8d8db;
+	color: #d4131b;
+}
+.training .tblData.eduCommon .titBdr2 {
+	border-top: 1px solid #5b6fbe;
+	background-color: #fbfbfb;
+}
+.training .tblData.eduCommon .subTit {color: #5b6fbe;}
+.training p.cmt {
+	clear: both;
+	padding-top: 18px;
+	font-size: 14rem; /* 14px / 16px */
+	color: #98999c;
+}
+.talent .subHeader2 {
+	padding-bottom: 40px;
+	background-size: inherit;
+}
+.talent .subHeader2 .bdrWrap {
+	/* padding-bottom: 100px; */
+	/* background: url('../images/contents/bg_talentHeader.png') center bottom no-repeat; */
+}
+.talent .subTxt00, .talent .subTxt01, .talent .subTxt02 {
+	width: 100%;
+	text-align:center;
+	font-weight: 400;
+}
+.talent .subTxt00 {
+	font-size: 20rem; /* 20px / 16px */
+	color: #98999c;
+	padding-top: 30px;
+}
+.talent .subTxt00 span {color: var(--han02)}
+.talent .subTxt01 {
+	margin: 50px 0;
+	line-height: 70px;
+	font-size: 60rem;
+	font-weight: 700;
+}
+.talent .subTxt02 {
+	margin: 0 auto;
+	width: 64%; 
+	color: #222;
+	
+	 /* 15px / 16px */
+}
+.talent .contentsArea {
+	overflow: hidden;
+	clear: both;
+}
+.talent .valueCreator {
+	float: left;
+	width: 33%; /* 340px / 1024px */
+	min-height: 315px;
+	padding-right: 26%; /* 266px / 1024px; */
+	text-align: right;
+	background: url('../images/contents/bg_talentIcon.png') no-repeat;
+	background-position: right 0;
+}
+.talent .specialist {
+	float: right;
+	width: 33%; /* 340px / 1024px */
+	text-align: left;
+}
+.talent .valueCreator h3, .talent .specialist h3 {
+	margin: 25px 0 20px;
+	padding: 0;
+	color: var(--han02);
+	font-weight: 700;
+	font-size: 30rem; /* 20px / 16px */
+}
+.talent .valueCreator p.infoTxt01,
+.talent .specialist p.infoTxt01 {
+	margin-bottom: 30px;
+	min-height: 70px;
+	
+	 /* 15px / 16px */
+}
+.talent .valueCreator p.conTxt01,
+.talent .specialist p.conTxt01 {
+	padding-top: 20px;
+	 /* 14px / 16px */
+	background: url('../images/contents/bg_bdr.png') no-repeat;
+}
+.talent .valueCreator p.conTxt01 {background-position: right 0;}
+.talent .specialist p.conTxt01 {background-position: left 0;}
+.talent .valueCreator p.conTxt01 strong,
+.talent .specialist p.conTxt01 strong {font-weight: 700;}
+.recruit .subTxt02 {width: 100%;}
+.career {
+	overflow: hidden;
+	clear: both;
+	margin-top: 40px;
+}
+.career .tblImg {width: 100%;}
+.career .tblIR {
+	font-size: 0;
+	line-height: 0;
+	text-indent: -9999px;
+}
+.career .narrowImg {display: none;}
+
+.trainingTable{text-align: center; font-size: 13px; width:100%; border-top:1px solid #000;}
+/* .trainingTable tr:FIRST-CHILD th{border-top:1px solid #000;} */
+.trainingTable tr th {background: #f2f2f2;padding:5px 0;}
+.trainingTable tr td {padding:15px 0; position: relative;}
+.trainingTable tr th , .trainingTable tr td { line-height:16px ; border-left:1px solid #d8d8db; border-bottom:1px solid #d8d8db; width:23%; vertical-align: middle; font-weight: 700;}
+.trainingTable tr th:FIRST-CHILD, .trainingTable tr td:FIRST-CHILD {width:8%; border-left: 0;}
+.tableHasBorder{border-left:1px solid #d8d8db !important; width:23% !important;}
+.trainingTable em{font-size: 15px;}
+.trgCon{
+	position:absolute; 
+	/* background-color: #eff3fb;  */
+	margin:10px; 
+	left:0; right:0; top:0; bottom:0; 
+	color:var(--han02); 
+	padding:10px 20px; 
+	vertical-align: middle;
+	text-align: left;
+	line-height: 18px;
+	height: 250px;
+	}
+.trgCon ul li{background: url("../images/contents/icoBullet.png") 0 9px no-repeat; padding-left:10px; padding-top:7px;}
+.tableWide{display: block;}
+.tableMedium{display: none;}
+
+/* wide */
+@media all and (min-width:851px) {
+	.talent .valueCreator p.infoTxt01 .nextLine2,
+	.talent .specialist p.infoTxt01 .nextLine2,
+	.talent .valueCreator p.conTxt01 .nextLine1,
+	.talent .specialist p.conTxt01 .nextLine1,
+	.talent .specialist p.conTxt01 .nextLine2,
+	.talent .specialist p.conTxt01 .nextLine3 {display: block;}
+}
+
+/* medium */
+@media all and (min-width:601px) and (max-width:850px) {
+	.recruit .subTxt02 br {display: none;}
+/* 	.recruit .subTxt02 {width: 50%;} */
+	.welfareList > ul {width: 100%;}
+	.welfareList ul.welfareLeft {margin-right: 20px;}
+/* 	.welfareList div > li strong {
+		padding-top: 0;
+	} */
+/* 	.welfareList div > li > div {
+		padding: 0 10px 0 90px;
+	} */
+
+	.recruitComment div {width: 85%;}
+/* 	.recruitLink {
+	width:250px;
+	float:right;
+	} */
+	.adoptSequence .tabContents ul li.step{
+		width:26.8%;
+		padding-right: 6.5%;
+		margin-bottom: 10px;
+	}
+/* 	.adoptSequence .tabContents ul li p {
+		min-width: 105px;
+		padding-top: 100px;
+	} */
+/* 	.adoptSequence .tabContents ul li.step {background: url('../images/contents/bg_stepArrowM.png') 95% 15% no-repeat;} */
+/* 	.subHeader1.recruit {background: url('../images/contents/bg_headerRecruitM.png') right bottom no-repeat;} */
+	.training .trainingEdu1, .training .trainingEdu2 {
+		overflow: hidden;
+		float: none;
+		width: 100%;
+	}
+	.training .trainingEdu1 {
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+	.talent .subTxt02 {width: 100%;}
+	.talent .subTxt02 .nextLine1 {display: block;}
+	.talent .valueCreator {
+		float: none;
+		width: 100%;
+		min-height: 153px;
+		padding-right: 0;
+		padding-top: 350px;
+		padding-bottom: 10px;
+		text-align: left;
+		background-position: center 0;
+	}
+	.talent .valueCreator p.conTxt01 {background-position: left 0;}
+	.talent .valueCreator p.infoTxt01, .talent .specialist p.infoTxt01 {
+		min-height: 100%;
+		margin-bottom: 20px;
+	}
+	.talent .valueCreator p.conTxt01, .talent .specialist p.conTxt01 {padding-top: 25px;}
+	.talent .specialist {
+		float: none;
+		width: 100%;
+		text-align: left;
+	}
+	.career .narrowImg,
+	.career .tblImg img {display: none;}
+	.career .tblImg {
+		min-height: 323px;
+		margin-bottom: 20px;
+		background: url('../images/contents/ico_careerTblM01.png') center center no-repeat;
+		background-size: contain;
+	}
+	.career .tblIR {
+		height: 344px;
+		background: url('../images/contents/ico_careerTblM02.png') center center no-repeat;
+		background-size: contain;
+	}
+	.tableWide{display: none;}
+	.tableMedium{display: block;}
+	.welfareList ul > li{/* min-height: 150px; */}
+	.welfareList ul > li div{/* padding-left: 113px; */}
+	.welfareList ul > li strong{padding: 0 0 10px;}
+	
+}
+
+/* narrow */
+@media all and (max-width:600px) {
+	.recruit .subTxt02 br {display: none;}
+/* 	.recruit .subTxt02 {width: 50%;} */
+/* 	.contentsArea {padding: 0 20px;} */
+	.welfareList > ul {
+		float: none;
+		width: 99.5%;
+		min-height: 70px;
+		margin-bottom: 10px;
+	}
+	.welfareList ul > li {
+		/* min-height: 70px; */
+		/* margin-bottom: 10px; */
+		/* font-size: 0.750em; */ /* 16px / 12px  */
+		/* line-height: 18px; */
+		width: 100%;
+		margin: 0;
+		padding: 20px 0;
+	}
+	.welfareList ul > li:last-child{margin-bottom: 0;}
+
+	.welfareList ul > li{background-size: 70px auto !important;}
+	.welfareList ul > li:nth-child(2){border-top: 1px solid #e2e2e2;}
+	.welfareList ul > li > div{/* padding: 10px 10px 10px 87px; */line-height: 18px;}
+	.welfareList ul > li strong{padding: 0 0 10px;font-size: 20rem;}
+	.welfareList > ul.welfareRight{margin-bottom: 0;}
+	.recruitComment {font-size: 14rem; /* 12px / 15px */}
+	.recruitComment div {
+		width: 75%;
+		margin-left: 10px;
+	}
+	.recruit .serTxt em{padding-bottom: 0;padding-top: 15px;}
+	.recruit .serTxt > li{padding-bottom: 0;}
+/* 	.subHeader1.recruit {
+		background: url('../images/contents/bg_headerRecruitN.png') right bottom no-repeat;
+	} */
+	.recruitMsg {font-size: 0.813em;}
+
+/* 	.recruitLink {
+	width:210px;
+	} */
+
+	a.recruitBtn {
+	padding-right: 23px;
+	background: url(../images/contents/btn_direct.png) no-repeat right 0;
+	font-size: .813em;
+	font-weight: 700;
+	color: #d73338;
+	}
+
+	.tabMenu.adoptSequence > ul {margin-bottom: 20px;}
+	.tabMenu.adoptSequence > ul > li {
+		min-width: 33.3%;
+/* 		min-width: 80px; */
+	}
+	.tabMenu.adoptSequence > ul > li:first-child {padding-right: 0;}
+	.tabMenu.adoptSequence > ul > li a {font-size: 0.937em; /* 15px/ 16px */}
+	.adoptSequence .tabContents ul li.step {
+		float: none;
+		width: 99.5%;
+		padding-right: 0;
+		padding-bottom: 19px;
+		margin-bottom: 5px;
+		background: url('../images/contents/bg_stepArrowN.png') center bottom no-repeat;
+	}
+	.adoptSequence .tabContents ul li.lastStep {padding-bottom: 0; background: none;}
+	.adoptSequence .tabContents ul li p {
+		width: 100%;
+		padding: 10px 0;
+		/* color: #fff; */
+		font-size: 0.875em; /* 14px/ 16px */
+		background-size: 69px 35px !important;
+	}
+	.adoptSequence .tabContents ul li p.newStep01,
+	.adoptSequence .tabContents ul li p.newStep02,
+	.adoptSequence .tabContents ul li p.newStep03,
+	.adoptSequence .tabContents ul li p.newStep04,
+	.adoptSequence .tabContents ul li p.newStep05,
+	.adoptSequence .tabContents ul li p.newStep06,
+	.adoptSequence .tabContents ul li p.newStep07,
+	.adoptSequence .tabContents ul li p.newStep08 {background: none;}   
+/* 	.adoptSequence .tabContents ul li p.newStep01,
+	.adoptSequence .tabContents ul li p.newStep02 {background: url('../images/contents/bg_recruitN01.png') 0 0 repeat-x;}
+	.adoptSequence .tabContents ul li p.newStep03 {background: url('../images/contents/bg_recruitN02.png') 0 0 repeat-x;}
+	.adoptSequence .tabContents ul li p.newStep04,
+	.adoptSequence .tabContents ul li p.newStep07 {background: url('../images/contents/bg_recruitN03.png') 0 0 repeat-x;}
+	.adoptSequence .tabContents ul li p.newStep05,
+	.adoptSequence .tabContents ul li p.newStep06,
+	.adoptSequence .tabContents ul li p.newStep08 {background: url('../images/contents/bg_recruitN04.png') 0 0 repeat-x;} */
+	/* .serTxt em {
+		font-size: 13px;
+	} */
+	/* .serTxt p {
+		font-size: 12px;
+	} */
+	.recruit .serTxt {
+		margin-bottom: 20px;
+		line-height: 18px;
+	} 
+	.training .trainingEdu1, .training .trainingEdu2 {
+		overflow: hidden;
+		float: none;
+		width: 100%;
+	}
+	.training .trainingEdu1{
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+	.training .tblData {
+		min-height: 271px;
+		font-size: 0.92em; /* 13px / 14px */
+	}
+	.training .tblData tbody td {padding: 10px 0;}
+	.training .tblData.eduTask tbody td {vertical-align: middle;}
+	.training p.cmt {
+		margin-left: 130px;
+		padding-top: 10px;
+		text-indent: -130px;
+		font-size: 0.8125em; /* 13px / 16px */
+	}
+	.talent .subHeader2 {padding-bottom: 25px;}
+	.talent .subHeader2 .bdrWrap {
+		padding-bottom: 80px;
+		background: url('../images/contents/bg_talentHeaderN.png') center bottom no-repeat;
+	}
+	.talent .valueCreator h3, .talent .specialist h3 { /* 18px / 16px */}
+	.talent .subTxt01 {
+		margin: 20px 0 25px;
+		line-height: 40px;
+		font-size: 2.5em; /* 40px / 16px */
+	}
+	.talent .subTxt02 {width: 91%;}
+	.talent .valueCreator {
+		float: none;
+		width: 100%;
+		min-height: 153px;
+		padding-right: 0;
+		padding-top: 355px;
+		margin-bottom: 30px;
+		text-align: left;
+		background-position: center 0;
+	}
+	.talent .valueCreator p.conTxt01 {background-position: left 0; }
+	.talent .valueCreator p.infoTxt01, .talent .specialist p.infoTxt01 {
+		min-height: 100%;
+		margin-bottom: 20px;
+		 /* 14px / 16px */
+	}
+	.talent .valueCreator p.conTxt01, .talent .specialist p.conTxt01 {
+		padding-top: 20px;
+		 /* 12px / 14px */
+	}
+	.talent .specialist {
+		float: none;
+		width: 100%;
+		text-align: left;
+	}
+	.talent .valueCreator p.infoTxt01 .nextLine2, .talent .specialist p.infoTxt01 .nextLine2,
+	.talent .valueCreator p.conTxt01 .nextLine1, .talent .specialist p.conTxt01 .nextLine1,
+	.talent .specialist p.conTxt01 .nextLine2, .talent .specialist p.conTxt01 .nextLine3 {display: inline;}
+	.career .tblImg img {display: none;}
+	.career .tblImg {
+		min-height: 240px;
+		margin-bottom: 10px;
+		background: url('../images/contents/ico_careerTblN01.png') center center no-repeat;
+		background-size: contain;
+	}
+	.career .tblIR {
+		height: 245px;
+		margin-bottom: 10px;
+		background: url('../images/contents/ico_careerTblN02.png') center center no-repeat;
+		background-size: contain;
+	}
+	.career .narrowImg {
+		display: block;
+		min-height: 253px;
+		background: url('../images/contents/ico_careerTblN03.png') center center no-repeat;
+		background-size: contain;
+	}
+		.tableWide{display: none;}
+	.tableMedium{display: block;}
+	.trainingTable{font-size: 12px;}
+	.trainingTable tr td {padding:9px 0; position: relative;}
+	.trgCon {
+    	margin: 8px;
+	    padding: 0px 4px;
+	    vertical-align: middle;
+	    text-align: left;
+	    line-height: 16px;
+	    margin-left: 2px;
+		}
+}

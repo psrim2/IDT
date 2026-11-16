@@ -1,0 +1,392 @@
+@charset "utf-8";
+.bBord{/* border-bottom: 1px solid #222 !important; */}
+.lBord{border-left: 1px solid #d8d8db !important;}
+.conWrap{margin-bottom: 60px;}
+.conWrap:last-child{margin-bottom: 0;}
+
+.stockWrap .hasBorder span.standard{
+	font-size: 14rem;
+	float: right;
+	font-weight: 400;
+}
+
+.stockDate{float: right; font-size: 13rem; padding-bottom: 10px;}
+.dashList li{padding: 5px 0 5px 10px;position: relative;line-height: 20px;font-size: 16rem;}
+.dashList li:before{content: "-"; position: absolute; top: 0; left: 0; padding-top: 5px;}
+
+table.stockTable tHead tr:last-child th{/* border-bottom: 1px solid #222; */}
+table.stockTable th{background-color: #f2f5f7;/* color: #585858; */font-weight: 400;padding: 6px 15px !important;font-size: 15rem !important;}
+table.stockTable th, 
+table.stockTable td{
+	padding: 11px 15px;
+	font-size: 16rem;
+	line-height: 20px;
+	border-bottom: 1px solid #d8d8db;
+	vertical-align: middle;
+	border-left: 1px solid #d8d8db;
+}
+.stockTable th:first-child, table.stockTable td:first-child{
+	border-left: 0;
+}
+.stockTable td{ text-align: right;}
+.stockTable td:first-child{text-align: left;}
+
+.stockTableStyle01 td{ text-align: center;}
+.stockTableStyle01 td:first-child{text-align: center;}
+/*.stockTable .tblList th, table td{
+	padding: 1px 0;
+}*/
+.stockTable{border-top: 2px solid #000;}
+table.stockTable tr.total td {background-color: #f2f5f7;color: var(--han01);font-weight: 400;}
+
+
+.skyTable th  {
+	background-color: #e7f2fc;
+	color: #095cc4;
+}
+.grayTable th{
+	background-color: #f3f3f3;
+}
+.stockTable th p{font-size: 13rem; font-weight: 400;}
+
+
+.stockGroup {height: 215px;}
+.stockGroup div{display: inline-block; float: left; height: 130px; text-align: center;}
+.stockGroup div>p{font-size: 15rem; margin-bottom: 20px; font-weight: 700;}
+.stockGroup .innerGroup{
+	width: 38%;
+	margin-right: 4%;
+}
+.stockGroup .outGroup{
+	width: 58%;
+}
+.stockGroup li{
+	display: inline-block; 
+	float: left; 
+	border: 1px solid #d8d8db; 
+	box-sizing: border-box; 
+	height: 100px; 
+	padding: 20px 0; 
+	margin-left: 2%;
+	text-align: center;
+}
+.stockGroup li:first-child{margin-left: 0;}
+.stockGroup .innerGroup li{width: 49%; }
+.stockGroup .outGroup li{width: 32%; }
+.stockGroup li h1{ font-size: 22rem; font-weight: 700; line-height: 38px; letter-spacing: -1px;}
+
+.sentence .tableWrap + p{margin-top: 10px;}
+
+.sentence{position: relative; margin-bottom: 30px !important;}
+.sentence + .borderBox{margin-top: -10px}
+.sentence .tableTitle{font-size: 18rem; margin-bottom: 15px; padding-top: 20px;}
+h3.hasBorder span.unit{float: right; right: 0; font-size: 14rem; padding-top: 8px; color: #777; font-weight: 400;}
+
+
+.status ul{clear: both;}
+.status li{
+	width: 33%;
+	float: left;
+	box-sizing: border-box;
+	padding-left: 30px;
+	margin-bottom: 20px;
+	position: relative;
+}
+.status li:first-child {
+	padding-left: 0;
+}
+.status table tr:first-child td{border-top: 0; }
+.status table td{border-top: 1px solid #d8d8db; border-bottom: 0; text-align: right; font-weight: 700; font-size: 15rem; padding: 0; line-height: 40px;}
+.status table{border-top: 1px solid #000; border-bottom: 1px solid #000;}
+.status table td:first-child{text-align: left !important; font-size: 14rem; color: #7f7f7f; font-weight: 400;}
+
+.status .nowPrice p{
+	background-color: #095cc4; 
+	color: #fff; 
+	line-height: 30px; 
+	padding: 10px 20px; 
+	height: 30px; 
+	font-size: 28rem; 
+	font-weight: 700; 
+	text-align: right; 
+	position: relative;
+}
+.status .nowPrice p span{ position: absolute; left: 20px; font-size: 13rem; font-weight: 400;}
+.status .nowPrice>span{width: 49%; display: inline-block; padding: 0 5px; box-sizing: border-box; text-align: right; position: relative; margin: 20px 0; font-weight: 700;}
+.status .nowPrice>span.yesterDay{border-right: 1px solid #b3b3b3; padding-right: 15px; }
+.status .nowPrice>span.volume{padding-left: 15px;}
+.status .nowPrice>span.yesterDay:before {content:"전일대비"; float: left; color: #7f7f7f; font-weight: 400;}
+.status .nowPrice>span.volume:before {content:"거래량"; float: left; color: #7f7f7f; font-weight: 400;}
+.nowPriceInfo {display: table; height: 88px;}
+.nowPriceInfo p{display: table-cell; vertical-align: bottom; font-size: 13.5rem; line-height: 18px;}
+.nowPriceInfo p span{display: block;}
+.nowPriceInfo strong{color: #095cc4; font-weight: 700;}
+.stockCi{text-align: center;}
+.stockCi p{text-align: left;}
+.stockCi img{padding-top: 15px; padding-right: 5px;}
+.krsInfo{font-size: 13rem; clear: both; }
+.krsInfo a{color: #095cc4; text-decoration: underline; font-weight: 700;} 
+
+.irWrap li .majorResult .majorReList li{
+	background: url('../images/contents/bg_bullet.png') no-repeat;
+	background-position: 20px 8px;
+	width: 100%;
+	display: block;
+	box-sizing: border-box;
+	padding: 5px;
+	padding-top: 1px;
+	padding-left: 30px;
+	border-bottom-width: 0px;
+	border-top-width: 0px;
+	font-size: 15rem;
+	margin-left: 0%;
+}
+
+/* 주주차트 */
+.pieChart{text-align: center;margin-bottom: 40px;}
+.stockholderChart{margin: 0 auto;}
+.stockholderChart .listtopie-item span{margin-left: 10px;}
+.stockholderChart .listtopie-item{display: none;}
+.stockholderChart .listtopie-list{display: inline-block;}
+.chartLegend .listtopie-link-color {
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    float: left;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    margin-top: -6px;
+}
+.chartLegend .listtopie-link-color-out {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    float: left;
+    text-align: center;
+    clear: both;
+}
+.chartWrap{display: inline-block; width: 300px; height: 300px; font-size: 18rem;}
+.chartLegend{display: inline-block;vertical-align: top;margin-top: 108px;margin-left: 20px;}
+.chartLegend span{float: left;display: block;line-height: 25px;}
+.listtopie-svg{width: 300px; height: 300px;}
+
+.stockWrap .borderList li{
+	border: 1px solid #e5e5e5; 
+	display: inline-block; 
+	float: left;
+	box-sizing: border-box;
+	padding: 40px 50px 50px;
+	margin-left: 2%;
+	margin-top: 2%;
+	border-radius: var(--radius-m);
+}
+.stockWrap .borderList li:last-child{float: inherit;}
+
+.stockWrap .directorsWrap li{width: 32%; }
+.stockWrap .directorsWrap li:nth-child(3n +1){margin-left: 0; clear: both;}
+.stockWrap .directorsWrap li:nth-child(-n + 3){margin-top: 0;}
+
+.stockWrap .inspection li{width: 49%;margin-left: 2%;padding: 50px 40px;}
+.stockWrap .inspection li:nth-child(2n +1){margin-left: 0; clear: both;}
+
+.stockWrap .division{font-size: 14rem; color: var(--han01);}
+.stockWrap .division + .disWrap{margin-top: 50px;}
+.stockWrap .disWrap h4{font-size: 26rem;margin-bottom: 15px;font-weight: 400;}
+.stockWrap .disWrap span{color: #808080; margin-right: 10px;}
+.stockWrap .disWrap + .disWrap{border-top: 1px solid #e8e8e8;margin-top: 25px;}
+.stockWrap .disWrap + .disWrap span{display: block; padding: 20px 0 10px;}
+
+.tblList td.hasBtn{text-align: center;}
+.tblList td.hasBtn .btnWrap{position: relative; top: auto; margin: 0 2px;}
+a.btnPdfView{border: 1px solid #e3e3e3; min-width: 85px;}
+
+
+/* ir정보 */
+.irWrap li{
+	display: inline-block;
+	width: 47.5%;
+	box-sizing: border-box;
+	margin-left: 4%;
+	/* border-bottom: 1px solid #000; */
+	padding: 20px 0 70px;
+	vertical-align: top;
+}
+.irWrap > ul{position: relative;padding-bottom: 0 !important;}
+.irWrap > ul:last-child{margin-bottom: 50px;}
+.irWrap > ul > li:after{
+	content: " ";
+	position: absolute;
+	bottom: 0;
+	height: 1px;
+	width: 47.5%;
+	left: 0;
+	right: 0;
+	background-color: #222;
+}
+.irWrap > ul > li:nth-child(2):after{left: 51.5%;}
+.comOverview .irWrap > ul > li{/* min-height: 600px; */}
+.irWrap li:nth-child(1),.irWrap li:nth-child(2),.irWrap li:nth-child(3){border-top: 1px solid #000; }
+.irWrap li:first-child, .irWrap li:nth-child(3){margin-left: 0;} 
+.irWrap li:nth-child(3n+1), .irWrap li:first-child {
+	margin-left: 0;
+}
+.irWrap li img{
+	padding-bottom: 15px;
+	margin: 0 auto;
+}
+.irWrap li h1{
+	font-size: 20rem;
+	line-height: 20px;
+	font-weight: 700;
+	height: 30px;
+	margin: 20px 0;
+	overflow: hidden;
+}
+.irWrap li p{
+	line-height: 20px;
+	margin-bottom: 20px;
+}
+.irWrap li p
+
+.irWrap li p span{padding-right: 15px; color: #7f7f7f;}
+.irWrap li a{
+	display: block;
+	box-sizing: border-box;
+	border: 1px solid #dedede;
+	padding: 10px 8px 10px 30px;
+	font-size: 13rem;
+	margin-top: 5px;
+	height: 35px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	background: url("../images/contents/icon_ir_down.png") no-repeat left 11px center;
+	position: absolute;
+	left: 0;
+	bottom: 30px;
+	width:  47.5%;
+}
+.irWrap li:nth-child(2) a{
+	left: 51.5%;
+}
+.irWrap li a:hover {
+	background-color: #f4f4f4;
+}
+
+
+/* eng */
+.sentence > p.unit{position: relative; text-align: right;}
+
+
+
+
+/* medium */
+@media all and (min-width:601px) and (max-width:850px) {
+
+	.pd0{padding: 0 !important;}
+	.status li{width: 50%;}
+	li.nowPrice{width: 100%; padding-left: 0; margin-bottom: 0;}
+	li.nowPriceInfo{width: 100%; padding-left: 0; height: 18px; padding-bottom: 20px;}
+	li.stockCi{text-align: right; width: 100%;}
+	.stockCi p{position: absolute; left: 0; top: 30px;}
+	.irWrap li{width: 100%;margin-left: 4%;padding: 20px 0;border-bottom: 1px solid #222;}
+	.irWrap li:nth-child(odd){margin-left: 0 !important;}
+	.irWrap li:nth-child(even){margin-left: 0;}
+	.irWrap li:nth-child(3){border-top: 0; }
+	.irWrap li a{position: relative;width: 100%;bottom: auto;left: auto !important;}
+	.irWrap > ul > li:after{display: none;}
+	.nowPriceInfo p span{display: inline-block;}
+	.stockGroup{height: 392px;}
+	.stockGroup .outGroup{padding-top: 25px;}
+	.stockGroup div{display: inline !important; height: 135px; width: 100% !important; margin: 0 !important;}
+	.chartWrap{display: block; margin: 0 auto;}
+	.chartLegend{margin: 10px 0 0 0;}
+	.chartLegend li{clear: both;}
+	
+	.stockWrap .directorsWrap li{width: 49%;padding: 25px 25px 40px;}
+	.stockWrap .directorsWrap li:nth-child(n +3){margin-top: 2%;}
+	.stockWrap .directorsWrap li:nth-child(2n + 1){margin-left: 0; clear: both;}
+	.stockWrap .inspection li{width: 100%;float: none;margin-left: 0;padding: 35px;}
+	.stockWrap .inspection li:first-child {margin-top: 0;}
+	
+	.stockWrap .division + .disWrap{margin-top: 30px;}
+}
+
+/* narrow */
+@media all and (max-width:600px) {
+
+	.status li{width: 100%; padding-left: 0;}
+	.stockCi{height: 55px;}
+	.stockCi img{position: absolute; right: 0; top: 0;}
+	li.nowPrice{margin-bottom: 0;}
+	.nowPriceInfo{height: 50px;}
+	.nowPriceInfo p{vertical-align: top; line-height: 18px;}
+	.nowPriceInfo p span{display: block;}
+	ul.outGroup{height: 310px;}
+	.irWrap li{width: 100% !important;margin-left: 0 !important;margin-bottom: 10px;min-height: auto;padding-bottom: 0;}
+	.irWrap li:nth-child(2), .irWrap li:nth-child(3){border-top: 0; }
+	.irWrap li h1{height: auto; margin-bottom: 15px; font-size: 16rem;}
+	.irWrap li p{font-size: 13rem;}
+	.stockGroup div{display: block !important; float: none !important; clear: both; width: 100% !important; height: auto !important;}
+	.stockGroup div li{display: block; width: 100% !important; margin-left: 0; padding: 10px 20px; text-align: left; height: auto; position: relative; margin-bottom: 10px;}
+	.stockGroup div li p{position: absolute; right: 20px; top: 25px; font-size: 14rem;}
+	.stockGroup div li h1 {font-size: 20rem;}
+	.stockGroup .outGroup{padding-top: 10px;}
+	.stockGroup{height: 477px;}
+	
+	h3.hasBorder span.unit{display: block; float: none; padding-top: 0;}
+	
+	.stockTableStyle02{font-size: 14rem;}
+	.stockTableStyle02 td { padding: 12px 6px;}
+	.stockTableStyle02 th p span{display: none;}
+	.stockTableStyle02 td {position: relative;}
+	.stockTableStyle02 td span{position: absolute; left: 6px; top: 12px;}
+	.stockTableStyle02 td p{padding-left: 18px;}
+	.stockTableStyle02 td.btB{padding-left: 10px;}
+	.chartWrap{display: block;margin: 0 auto;width: 260px;height: 260px;}
+	.listtopie-svg{width: 260px; height: 260px;}
+	.chartLegend{margin: 10px 0 0 0;}
+	.chartLegend li{clear: both;}
+	.tableWrap{
+		overflow: auto;
+		margin-top: -50px;
+		padding-top: 50px;
+		background: url(../images/contents/icon_table_narrow.png) no-repeat top 5px right;
+		background-size: 45px auto;
+		width: 100%;
+	}
+   
+    .stockWrap .hasBorder span.standard {display: block; float: none;}
+	.stockTable{min-width: 660px;}
+	table.stockTable td{padding: 10px !important;}
+	table.stockTable th{padding: 5px !important;}
+	
+	/* .stockWrap .directorsWrap li{width: 100%; margin-left: 0; margin-top: 10px;}
+	.stockWrap .directorsWrap li:first-child {margin-top: 0;}
+	.stockWrap .directorsWrap li .disWrap{margin-top: 0;} */
+	.stockWrap .tabMenu > ul > li a{padding: 0 0 5px;}
+	.stockWrap .tabMenu > ul > li{width: auto; padding: 0 10px;}
+	
+	/* .stockWrap .directorsWrap li{width: 49%;padding: 30px 30px 50px;}
+	.stockWrap .directorsWrap li:nth-child(n +3){margin-top: 2%;}
+	.stockWrap .directorsWrap li:nth-child(2n + 1){margin-left: 0; clear: both;} */
+	.stockWrap .borderList li{padding: 17px 20px 20px;}
+	.stockWrap .division + .disWrap{margin-top: 15px;}
+	.stockWrap .disWrap h4{
+    margin-bottom: 10px;
+    font-size: 22rem;
+}
+	.stockWrap .directorsWrap li, 
+	.stockWrap .inspection li{width: 100%; float: none; margin-left: 0; }
+	.stockWrap .directorsWrap li:nth-child(n+2),
+	.stockWrap .inspection li:nth-child(n+2){margin-top: 2%;}
+	.stockWrap .directorsWrap:first-child ,
+	.stockWrap .inspection li:first-child {margin-top: 0;}
+	
+	.stockWrap .tabMenu ul{margin-top: 15px;overflow: auto;/* white-space: nowrap; */}
+	
+	.sentence{margin-bottom: 15px !important;}
+
+}

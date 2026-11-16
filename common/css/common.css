@@ -1,0 +1,57 @@
+/* font */
+@import url("font.css");
+
+/* layout */
+@import url("frame_group.css");
+
+/* main */
+/* @import url("main2017.css"); */
+@import url("main2023.css");
+@import url("main_slider.css");
+
+/* company */
+@import url("info.css");
+@import url("customer.css");
+@import url("util.css");
+
+/* business */
+@import url("service.css");
+@import url("case.css");
+@import url("stock_ict.css");
+
+/* career */
+@import url("recruit.css");
+
+
+:root{
+    --han00: #0b1340;
+    --han01: #051469;
+    --han02: #1E64DC;
+    --han03: #00CDFF;
+
+    --gray07: #285082;
+    --gray06: #466996;
+    --gray05: #6487AA;
+    --gray04: #82A0BE;
+    --gray03: #A0BED7;
+    --gray02: #BED7EB;
+    --gray01: #E1F0FF;
+
+    --b-black: #14141f;
+    --black: #000000;
+
+    --black70: rgba(0,0,0,.7);
+    --black50: rgba(0,0,0,.5);
+    --black30: rgba(0,0,0,.3);
+
+    --white70: rgba(255,255,255,.7);
+    --white50: rgba(255,255,255,.5);
+    --white30: rgba(255,255,255,.3);
+
+    --radius-m: 10px;
+    --radius-s: 5px;
+
+    --han-font: 'Hanjin','NotoSansKR','nanumSquare', sans-serif;
+    /* --han-font: 'NotoSansKR','nanumSquare', sans-serif; */
+
+}

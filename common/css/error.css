@@ -1,0 +1,58 @@
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+body {font-family: "Nanum Gothic", sans-serif;}
+.errorWrap {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	width: 100%;
+	margin-top: -418px;
+}
+.errorHeader {
+	width: 890px;
+	margin: auto;
+	padding-top: 268px;
+	background: url('../images/contents/bg_error.gif') right bottom no-repeat;
+}
+.errorWrap h1 {
+	margin: 0;
+	padding-bottom: 10px;
+}
+.errorInfo {
+	width: 100%;
+	border: 2px solid #292929;
+	border-width: 2px 0;
+}
+.errorInfo div {
+	width: 530px;
+	margin: auto;
+	padding: 65px 0 54px 360px;
+	background: url('../images/contents/ico_error.gif') 178px 97px no-repeat;
+}
+.errorInfo div h2 {
+	margin: 0 0 35px 0;
+	font-size: 20px;
+}
+.errorInfo div strong {
+	color: #e70012;
+	font-size: 45px;
+	font-weight: 700;
+}
+.errorInfo div strong + p {
+	margin: 18px 0 75px 0;
+	color: #6d6e71;
+	font-size: 20px;
+}
+.errorInfo div a {
+	display: inline-block;
+	width: 190px;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 38px;
+	background-color: #d4131b;
+	border: 1px solid #a6141a;
+	text-decoration: none;
+	text-align: center;
+}
