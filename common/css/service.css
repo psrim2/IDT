@@ -428,7 +428,7 @@ body {font-family:  var(--han-font);}
 	width: 32%;
 	margin-left: 2%;
 	border: 1px solid #e3e3e3;
-	border-radius: 0 0 var(--radius-m) var(--radius-m);
+	border-radius: var(--radius-m);
 }
 .serOver .offerSerImgArea .offerSer:first-child {margin-left: 0;}
 .serOver .offerSerImgArea .offerSer > div {position: relative;}
