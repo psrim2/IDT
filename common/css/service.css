@@ -428,23 +428,24 @@ body {font-family:  var(--han-font);}
 	width: 32%;
 	margin-left: 2%;
 	border: 1px solid #e3e3e3;
+	border-radius: 0 0 var(--radius-m) var(--radius-m);
 }
 .serOver .offerSerImgArea .offerSer:first-child {margin-left: 0;}
 .serOver .offerSerImgArea .offerSer > div {position: relative;}
-.serOver .offerSerImgArea .offerSer .rapportimg img {width: 100%;}
+.serOver .offerSerImgArea .offerSer .rapportimg img {width: 100%; padding-top: 60px;}
 .serOver .offerSerImgArea .offerSer .rapportH {
 	position: absolute;
-	bottom: 0;
+	top: 0;
 	width: 100%;
-	height: 35px;
-	line-height: 35px;
+	height: 60px;
+	line-height: 60px;
 	color: #fff;
 	text-align: center;
-	font-size: 15rem;
-	background-color: #000;
+	font-size: 18rem;
+	background-color: var(--b-black);
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
 	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
-    opacity: .7;
+	border-radius: var(--radius-m) var(--radius-m) 0 0;
 }
 .serOver .offerSerImgArea .offerSer .rapportTxt {
 	position: relative;
