@@ -2018,8 +2018,9 @@ body:has(.modalShow){overflow: hidden;}
 		margin-left: 0;
 		margin-bottom: 10px;
 	}
-	.serOver .offerSerImgArea .offerSer > div{height: 150px;overflow: hidden;}
-    .serOver .offerSerImgArea .offerSer .rapportH {font-size: 14rem;}
+	.serOver .offerSerImgArea .offerSer > div{height: fit-content;overflow: hidden;}
+    .serOver .offerSerImgArea .offerSer .rapportH {font-size: 14rem; height: 40px; line-height: 40px;}
+	.serOver .offerSerImgArea .offerSer .rapportimg img{padding-top: 40px;}
 
 	.serOver .offerSerImgArea .offerSer .rapportTxt.comm2{min-height: auto;}
 	.serOver .offerSerImgArea .offerSer.mLast {margin-bottom: 0;}
