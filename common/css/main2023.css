@@ -811,10 +811,10 @@
 	
 	/* .mVisualWrap{min-height: 620px;   margin-top: 50px;} */
 	/* .visualText{left: 30px; right: 30px;} */
-	.mVisualWrap, .slider-pro, .sp-slides-container, .sp-slides, .sp-slide, .visualText, .sp-mask{height: calc(100vh - 110px) !important; min-height: 500px;}
+	.mVisualWrap, .slider-pro, .sp-slides-container, .sp-slides, .sp-slide, .visualText, .sp-mask{height: calc(100vh - 110px) !important; min-height: 667px;}
  
 	.visualText {padding: 50px 10% 90px;text-align: center;}
-	.visualText > div{padding-left: 0;}
+	.visualText > div{padding-left: 0; margin-bottom: 30%;}
 	.visualText h1{font-size: 32rem;text-align: center; letter-spacing: -.5px; line-height: 36rem;}
 	.visualText h1 span{font-size: 30rem;display: block;}
 	.visualText p span{display: none;}
@@ -825,6 +825,15 @@
 	.visualText img{width: 35px; height: auto;}
 	.visualText li a{font-size: 14rem; font-weight: 400;}
 	.visualText li a span{display: inline-block;}
+
+
+	.mVisual01 {background: url(../images/main/kv_s_01.png) center center no-repeat; background-size: cover;}
+	.mVisual02 {background: url(../images/main/kv_s_02.png) center center no-repeat; background-size: cover;}
+	.mVisual03 {background: url(../images/main/kv_s_03.png) center center no-repeat; background-size: cover;}
+	.mVisual04 {background: url(../images/main/kv_s_04.png) center center no-repeat; background-size: cover;}
+	.mVisual05 {background: url(../images/main/kv_s_05.png) center center no-repeat; background-size: cover;}
+	.mVisual06 {background: url(../images/main/kv_s_06.png) center center no-repeat; background-size: cover;}
+	
 	
 	.mTitleWrap h1{font-size: 30rem;}
 	.mTitleWrap p{font-size: 16rem;line-height: 20px !important;}	
@@ -942,6 +951,15 @@
 	.visualText p{width: 100%;}
 	.visualText ul{margin: 20px auto;}
 	.visualText li{font-size: 20rem; height: 75px;}
+
+	.visualText > div {margin-bottom: 200px;}
+
+	.mVisual01 {background: url(../images/main/kv_m_01.png) center center no-repeat; background-size: cover;}
+	.mVisual02 {background: url(../images/main/kv_m_02.png) center center no-repeat; background-size: cover;}
+	.mVisual03 {background: url(../images/main/kv_m_03.png) center center no-repeat; background-size: cover;}
+	.mVisual04 {background: url(../images/main/kv_m_04.png) center center no-repeat; background-size: cover;}
+	.mVisual05 {background: url(../images/main/kv_m_05.png) center center no-repeat; background-size: cover;}
+	.mVisual06 {background: url(../images/main/kv_m_06.png) center center no-repeat; background-size: cover;}
 	
 	.mTitleWrap h1{font-size: 50rem;}
 	.mTitleWrap p{font-size: 16rem; line-height: 20rem;}
